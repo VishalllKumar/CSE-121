@@ -156,7 +156,7 @@ Possible future enhancements:
 
 # 👨‍💻 Author
 
-Developed by: Your Name
+Developed by: VISHAL KUMAR
 
 Course: **CSE121**
 
