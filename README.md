@@ -1,200 +1,167 @@
-# 🎓 Bright Future School Website
+# 🎓 ABC Public School Website
 
-A modern and responsive school website created using **HTML, CSS, and JavaScript** for the **CSE121** course project.
-
-The website is designed with an attractive red gradient theme, smooth animations, responsive layouts, and interactive features. Everything is built inside a single HTML file using beginner-friendly code.
+A modern and responsive school website built using **HTML, CSS, and JavaScript**.  
+This project was created for the **CSE121** course.
 
 ---
 
-# 📌 Features
+# 📌 Project Overview
 
-* Responsive navigation bar
-* Mobile hamburger menu
-* Hero section with background image
-* Smooth scrolling navigation
-* Animated buttons and cards
-* About section with modern information cards
-* Courses section with attractive course cards
-* Contact form with JavaScript validation
-* Success alert message
-* Scroll reveal animations
-* Footer with social media icons
-* Fully responsive design for desktop, tablet, and mobile devices
+The website includes:
+
+- Responsive Navigation Bar
+- Hero Section with Banner Image
+- About Section
+- Courses Section
+- Contact Form
+- Footer with Contact Information
+- Smooth Animations and Hover Effects
+- Mobile Responsive Design
 
 ---
 
 # 🛠️ Technologies Used
 
-* HTML5
-* CSS3
-* JavaScript
+- HTML5
+- CSS3
+- JavaScript
+- Font Awesome Icons
+- Google Fonts
+
+---
+
+# 📚 Features
+
+## ✅ Responsive Design
+The website works smoothly on:
+- Desktop
+- Tablet
+- Mobile Devices
+
+## ✅ Attractive UI
+- Red gradient theme
+- Modern cards and buttons
+- Smooth hover animations
+- Clean layout
+
+## ✅ Interactive Elements
+- Mobile menu toggle
+- Form validation
+- Scroll reveal animations
+- Welcome button popup
 
 ---
 
 # 📂 Project Structure
 
-This project contains:
-
-* `index.html` → Main website file containing:
-
-  * HTML structure
-  * Internal CSS styling
-  * Internal JavaScript functionality
-
----
-
-# 💻 Code Explanation
-
-## 1. HTML Section
-
-The HTML part creates the structure of the website.
-
-Main sections included:
-
-* Header / Navigation Bar
-* Hero Section
-* About Section
-* Courses Section
-* Contact Section
-* Footer
-
-Semantic HTML tags like:
-
-```html
-<header>
-<section>
-<footer>
-<nav>
+```bash
+project-folder/
+│
+├── index.html
+├── banner.jpg
+└── README.md
 ```
 
-are used for clean and organized structure.
-
 ---
 
-## 2. CSS Section
+# 🖼️ Banner Image
 
-The CSS part is used for designing and styling the website.
-
-Main styling features:
-
-* Red gradient color theme
-* Flexbox and Grid layouts
-* Responsive design using media queries
-* Hover animations
-* Smooth transitions
-* Rounded corners
-* Shadows and glow effects
+Replace the default banner image with your own image.
 
 Example:
 
 ```css
-.btn {
-  background: linear-gradient(45deg, red, #ff4d4d);
-}
+url('banner.jpg');
 ```
 
-This creates modern gradient buttons.
+Place the image inside the project folder.
 
 ---
 
-## 3. JavaScript Section
+# 📖 Sections Included
 
-JavaScript adds interactivity to the website.
+## 1. Home
+Contains:
+- School welcome message
+- Navigation buttons
+- Background banner image
 
-Functions included:
+## 2. About
+Displays:
+- School introduction
+- Smart classes
+- Experienced teachers
+- Academic achievements
 
-### ✅ Mobile Menu Toggle
+## 3. Courses
+Includes:
+- Science
+- Commerce
+- Computer Science
+- Mathematics
 
-Opens and closes the mobile navigation menu.
+Additional courses can be added easily.
 
-```javascript
-navLinks.classList.toggle("active");
-```
+## 4. Contact
+Contains:
+- Name field
+- Email field
+- Message box
+- Form validation using JavaScript
 
----
-
-### ✅ Welcome Button Alert
-
-Displays a welcome popup message.
-
-```javascript
-alert("Welcome to Our School!");
-```
-
----
-
-### ✅ Form Validation
-
-Checks:
-
-* Empty fields
-* Correct email format
-
-If validation is successful:
-
-* Shows success message
-* Clears form automatically
-
----
-
-### ✅ Scroll Reveal Animation
-
-Reveals sections when the user scrolls down the page.
+## 5. Footer
+Includes:
+- School contact details
+- Social media icons
+- Copyright information
 
 ---
 
-# 📱 Responsive Design
+# ⚙️ How to Run the Project
 
-The website is fully responsive and works properly on:
+1. Download the project files
+2. Open the project folder
+3. Double-click `index.html`
 
-* Desktop
-* Tablet
-* Mobile devices
+OR
 
-Media queries are used for responsiveness.
-
----
-
-# 🚀 How to Run the Project
-
-1. Download the project file
-2. Open `index.html`
-3. Run it in any web browser
+Open using VS Code with Live Server.
 
 ---
 
-# 🎯 Learning Outcomes
+# ✏️ Customization
 
-Through this project, concepts learned include:
+You can easily customize:
 
-* Website structure using HTML
-* Styling with CSS
-* Responsive web design
-* JavaScript DOM manipulation
-* Form validation
-* Animations and transitions
-
----
-
-# 👨‍💻 Course Information
-
-**Course Name:** CSE121
-**Project Type:** Frontend Web Development Project
+- School name
+- Courses
+- Banner image
+- Colors
+- Contact details
+- Social media links
 
 ---
 
-# 📸 Project Preview
+# 🚀 Future Improvements
 
-Modern responsive school website with:
+Possible future enhancements:
 
-* Attractive red gradient UI
-* Animated cards
-* Interactive buttons
-* Responsive navigation
-* Contact form validation
+- Add admission form
+- Add gallery section
+- Add student login system
+- Connect contact form with backend
+- Add dark mode
+
+---
+
+# 👨‍💻 Author
+
+Developed by: Your Name
+
+Course: **CSE121**
 
 ---
 
 # 📄 License
 
-This project is created for educational purposes only.
+This project is created for educational purposes.
